@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Documentation | Training Manager - Ultimate Training Center Management System</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        p, table, hr, .box { margin-bottom:25px; }
+        .box p { margin-bottom:10px; }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <strong>
+
+            <h3 class="center alt">&ldquo;Training Manager - Ultimate Training Center Management System&rdquo; Documentation by &ldquo;Code Aristos&rdquo; v2.0</h3>
+
+            <hr>
+            <h1 class="center">Training Manager</h1>
+            <h1 class="center">&ldquo;Ultimate Training Center Management System&rdquo;</h1>
+
+            <div class="borderTop">
+                <div class="span-6 colborder info prepend-1">
+                    <p class="prepend-top">
+                        <strong>
+                            Created: February, 2017<br>
+                            By: Code Aristos<br>
+                            Email: <a href="mailto:rizvi@codearistos.com">rizvi.mahmud.plabon@gmail.com</a>
+                        </strong>
+                    </p>
+                </div><!-- end div .span-6 -->		
+                <!--
+                                <div class="span-12 last">
+                                    <p class="prepend-top append-0">Thank you for purchasing my application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/codearistos">here</a>. Thanks so much!</p>
+                                </div>
+                -->
+            </div><!-- end div .borderTop -->
+
+            <hr>
+
+            <h2 id="toc" class="alt">Table of Contents</h2>
+            <ol class="alpha">
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#batch">Batch</a></li>
+                <li><a href="#people">People</a></li>
+                <li><a href="#routine">Routine</a></li>
+                <li><a href="#studentsAttendence">Students Attendence</a></li>
+                <li><a href="#staffAttendence">Staff Attendence</a></li>
+                <li><a href="#finance">Financial Activities</a></li>
+                <li><a href="#settings">Settings</a>  <em class="quiet small"></em></li>
+                <li><a href="#others">Tasks, Events & Notice</a>  <em class="quiet small"></em></li>
+            </ol>
+
+            <hr>
+
+            <h3 id="installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+            <p> 1. Upload zipped file <strong>Training.zip</strong> to your server directory and unzip there.<br/>
+                2. Create a database.<br/>
+                3. Go to the Database file application/config/database.php and fill up with your database details.<br/>
+
+            <blockquote>
+                $db['default']['hostname'] = 'Host Name'; <br>
+                $db['default']['username'] = 'Database Username'; <br>
+                $db['default']['password'] = 'Password'; <br>
+                $db['default']['database'] = 'Database Name'; <br>
+            </blockquote>
+
+            4. Import the sql file into your database from the <strong>Database folder</strong>.<br/>
+            5. Upload the .htaccess file from <strong>htaccess</strong> folder into the server directory.<br/>
+            <br>
+            <p class="green"">Its Done !!!!!</p>
+
+            <strong>Default Login Details:</strong><br><br>
+
+            <table>
+                <thead>
+                    <tr><th>Role</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                    </tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Admin</td>
+                        <td>admin@example.com </td>
+                        <td> 12345</td>
+                    </tr>
+                    <tr>
+                        <td>Instructor</td>
+                        <td>instructor@example.com </td>
+                        <td> 12345</td>
+                    </tr>
+                    <tr>
+                        <td>Employee</td>
+                        <td>employee@example.com </td>
+                        <td> 12345</td>
+                    </tr>
+                    <tr>
+                        <td>Student</td>
+                        <td>student@example.com </td>
+                        <td> 12345</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            </p>
+
+
+            <hr>
+
+
+
+
+            <h3 id="modules"><strong>B)Modules </strong> - <a href="#toc">top</a></h3>
+
+
+            <p>
+                Through this  Training Center Management system User can manage all kind of management and  financial activities of a Training Center.
+
+                In this system there are modules like Course, Batch, Students, Attendence, Routine, Payment, Staff Attendence Tracking, Task Management, Events etc.
+
+
+                In a summary you need to use this software through this flow create course -> create batch ->create students ->all other activities 
+            </p>
+
+
+
+            <hr>
+
+
+
+            <h3 id="course"><strong>C) Course</strong> - <a href="#toc">top</a></h3>
+
+            Go to Add Course from Course module in sidebar. <br>
+            Fill the form with necessary info. Submit. <br>
+            <p>Courses will be enlisted here one by one. <br>
+            <br/> New curse also can be created by clicking on 'add curse' button in All Courses page.<p>
+
+
+            <hr>
+
+            <h3 id="batch"><strong>D)Batch</strong> - <a href="#toc">top</a></h3>
+            <p>Go to Batch-> Add Batch in the side menubar <br>
+                Fill The form <br>
+                Then Submit. <br>
+                Batch will be created. <br>
+                <br/> 
+            <p>Through this module user can manage all the batches and related issues.</p>
+            <hr>
+
+            <h3 id="people"><strong>E) People</strong> - <a href="#toc">top</a></h3>
+            <p> Students, Instructor and Employees can be created through this module.<br>
+                In Student section you can find the details button. After clicking that you will find the every detail of a student. 
+                Students course, batch and payment information are there.
+            </p> 
+
+            <hr>
+
+            <h3 id="routine"><strong>F) Routine</strong> - <a href="#toc">top</a></h3>
+            <p> After Creating the courses and batches you can create routine for batches.
+            <p>
+                Steps:<br>
+                1. Go to Routine --> Add Routine.<br>
+                2. Select Course and Batch.<br>
+                3. Select Weekday by checkbox and then input the time.<br>
+                4. Submit.
+            </p>
+            </p> 
+
+
+
+
+
+
+
+            <hr>
+
+            <h3 id="studentsAttendence"><strong>G)Students Attendence</strong> - <a href="#toc">top</a></h3>
+            <p>
+                Go To Attendence -> Add Attendence
+                Select Course and Batch.<br>
+
+                Click Next Button.<br>
+
+                After that you will find all the student of that batch and select option for there attendence. Just select thier attendence status and submit.<br>
+
+
+            </p>
+            <h3 id="staffAttendence"><strong>H)Staff Attendence</strong> - <a href="#toc">top</a></h3>
+            <p>
+                When  Staffs (Instructors, Employees) login to  profile they will find a button for sign in. <br>
+                Server will automatically detect the time and Ip Address. And a sign out button will appear <br>
+                After work they will just sign out the system <br>
+
+                Admin can see the attendence report from Attendence -> Staff Attendence option in menubar.
+
+                <br>
+
+
+            </p>
+            <hr>
+            
+             <h3 id="finance"><strong>I)Finance</strong> - <a href="#toc">top</a></h3>
+            <p>
+                Payment Can be Done from Finance -> Add Payment
+                Expense Can be Done from Finance -> Add Expense
+                From Reporting Module You can check Full, Course-Wise and Batch-wise Financial Reports.
+
+                <br>
+
+
+            </p>
+            <hr>
+            
+            <h3 id="others"><strong>J)Tasks, Events & Notice</strong> - <a href="#toc">top</a></h3>
+            <p>
+                You can manage Tasks and Task Reporting from task Module.
+                Event module manage events with a functional calendar.
+                There is a notice board in the Dashboard. You can manage those notices from notice module
+
+                <br>
+
+
+            </p>
+            <hr>
+
+            <h3 id="settings"><strong>K) Settings</strong> - <a href="#toc">top</a></h3>
+            <p>Site Configuration  Can be changed through this module.</p>
+            <p>
+                Different types of settings can be managed.<br>
+                1. Organization Name.<br>
+                2. Address<br>
+                3. Phone Number<br>
+                4. Email Address.<br>
+                5. Currency.<br>
+                6. Date Format.<br>
+                7. Login Title.<br>
+                8. Login Logo.<br>
+
+            </p>
+
+            <p class="append-bottom alt large"><strong>Code Aristos</strong></p>
+            <p><a href="#toc">Go To Table of Contents</a></p>
+
+            <hr class="space">
+
+        </strong>
+    </div><!-- end div .container -->
+</body>
+</html>
